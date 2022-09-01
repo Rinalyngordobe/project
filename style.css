@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar-header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+}
+.navbar-header.brand-name {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.brand-name h1{
+  margin-left: 40px;
+}
+
+.brand-name a{
+  text-decoration: none;
+  color: #F1F1F1;
+}
+.navbar-menu ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.navbar-menu a {
+  font-size: 2.0rem;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-menu a:hover:not(.active){
+  color: rgb(58,86,75);
+  background-color: grey;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  background: url('canvas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.home h1 {
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.skills {
+  height: 100vh;
+  display: flex;
+  height: 100vh;
+  padding: 90px 20px 0 20px;
+  padding-top: 205px;
+  background-color: #c0eaeb;
+}
+.skill h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.Design {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Design img{
+  height: 90px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(232, 197, 232);
+
+}
+  .about1 {
+      flex: 50%;
+      height: 100%;
+      padding: 90px 0 0 0;
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 200px;
+      padding-right: 50px;
+  }
+
+      .about img {
+          height: 250px;
+          border-radius: 50%;
+      }
+
+      .about .information {
+          margin-left: 20px;
+          margin-top: 20px;
+      }
+          .information h1{
+              color: rgb(15, 13, 13);
+              font-size: 2rem;
+          }
+
+          .information p{
+              color: rgb(26, 21, 21);
+          }
+          .footer {
+              width: 100%;
+              height: 300px;
+              padding-top: 40px;
+              background-color: #100F0F;
+          }
+          footer {
+              width: 100%;
+              height: 150px;
+              padding-top: 40px;
+              background-color: #100F0F;
+          }
+              footer p {
+                  margin-top: 20px;
+                  text-align: center;
+                  color: #E2DCC8;
+              }
